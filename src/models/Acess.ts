@@ -21,4 +21,7 @@ export const Acess = sequelize.define<AcessInstance>('Acess', {
         allowNull: false,
         type: DataTypes.INTEGER
     }
+}, {
+    tableName: 'authorizedAccess',
+    timestamps: false
 })

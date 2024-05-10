@@ -21,5 +21,8 @@ export const List = sequelize.define<ListInstance>('List', {
             allowNull: false,
             type: DataTypes.INTEGER
         }
+}, {
+    tableName: 'lists',
+    timestamps: false
 })
 

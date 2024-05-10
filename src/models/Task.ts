@@ -33,4 +33,7 @@ export const Task = sequelize.define<TaskInstance>('Task', {
             allowNull: false,
             type: DataTypes.INTEGER
         }
+}, {
+    tableName: 'tasks',
+    timestamps: false
 })
